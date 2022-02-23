@@ -3,9 +3,11 @@ const p = document.querySelector('p')
 
 function handleSubmit(evt) {
 	evt.preventDefault();
+    const name = document.querySelector(input[name="name"]).value
 	form.style.display = 'none'
+    p.text = `Thanks for signing up ${name}!`
     p.style.display = 'block'
-    document.querySelector('img').src= "https://cataas.com/cat/says/Thanks"
+    document.querySelector('img').src= `https://cataas.com/cat/says/Thanks ${name}!`
 }
 
 form.addEventListener('submit', handleSubmit);
