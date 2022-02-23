@@ -16,11 +16,6 @@ body {
 	margin: 35px 0px 20px 0px;
 }
 
-p {
-	margin-top: 10px;
-	margin-bottom: 10px;
-}
-
 button {
 	color: #005449;
 	background-color: #BBCBC9;
@@ -45,9 +40,10 @@ img {
 input {
     display: block;
     box-sizing: border-box;
-    text-align: center;
-    width: 400px;
-    padding: 5px;
+    color: #005449;
+    font-size: 1.0em;
+    width: 500px;
+    padding: 5px 10px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
