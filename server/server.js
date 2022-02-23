@@ -14,6 +14,10 @@ app.get('/css', function(req,res) {
     res.sendFile(path.join(__dirname, '../index.css'))
 })
 
+app.get('/js', function(req,res) {
+    res.sendFile(path.join(__dirname, '../index.js'))
+})
+
 app.listen(port, () => {
     console.log(`running on port ${port}`)
 })
